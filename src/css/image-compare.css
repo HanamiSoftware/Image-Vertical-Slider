@@ -1,0 +1,80 @@
+﻿.image-compare {
+    --position: 50%;
+    --divider-width: 2px;
+    --divider-color: white;
+    --handle-size: 32px;
+    --handle-bg: rgba(255, 255, 255, 0.9);
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    touch-action: none;
+    cursor: ew-resize;
+}
+    .image-compare img {
+        -webkit-user-drag: none;
+    }
+        /* ------------------------------
+   Prima immagine (base)
+   Determina l'altezza
+---------------------------------*/
+        .image-compare img:first-child {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------------------------------
+   Seconda immagine (overlay)
+   Si sovrappone
+---------------------------------*/
+    .image-compare img:nth-child(2) {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Maschera dinamica */
+        mask-image: linear-gradient( to right, black 0%, black var(--position), transparent var(--position) );
+        -webkit-mask-image: linear-gradient( to right, black 0%, black var(--position), transparent var(--position) );
+    }
+
+    /* ------------------------------
+   Divider verticale
+---------------------------------*/
+    .image-compare::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: var(--position);
+        width: var(--divider-width);
+        background: var(--divider-color);
+        transform: translateX(-50%);
+        pointer-events: none;
+    }
+
+    /* ------------------------------
+   Handle centrale
+---------------------------------*/
+    .image-compare::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: var(--position);
+        width: var(--handle-size);
+        height: var(--handle-size);
+        background: var(--handle-bg);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+
+/* ------------------------------
+   Reduced motion
+---------------------------------*/
+@media (prefers-reduced-motion: reduce) {
+    .image-compare {
+        transition: none;
+    }
+}
