@@ -1,4 +1,4 @@
-﻿# Image Compare Slider
+﻿# Image Vertical/Compare Slider
 
 ![License](https://img.shields.io/github/license/HanamiSoftware/Image-Vertical-Slider)
 ![GitHub stars](https://img.shields.io/github/stars/HanamiSoftware/Image-Vertical-Slider?style=social)
