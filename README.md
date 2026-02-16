@@ -5,7 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/HanamiSoftware/Image-Vertical-Slider?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/HanamiSoftware/Image-Vertical-Slider)
 ![Issues](https://img.shields.io/github/issues/HanamiSoftware/Image-Vertical-Slider)
-![Release](https://github.com/HanamiSoftware/Image-Vertical-Slider/releases/tag/v0.16.02-alpha)
+![GitHub Release](https://img.shields.io/github/v/release/HanamiSoftware/Image-Vertical-Slider)
 A lightweight, dependency-free image comparison slider built using CSS `mask-image` and minimal JavaScript.
 
 Designed to be simple, customizable, accessible, and production-ready.
