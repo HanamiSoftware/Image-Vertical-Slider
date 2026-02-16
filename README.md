@@ -1,10 +1,10 @@
 ﻿# Image Compare Slider
 
-![License](https://img.shields.io/github/license/francescobiagini/image-vertical-slider)
-![GitHub stars](https://img.shields.io/github/stars/francescobiagini/image-vertical-slider?style=social)
-![GitHub forks](https://img.shields.io/github/forks/francescobiagini/image-vertical-slider?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/francescobiagini/image-vertical-slider)
-![Issues](https://img.shields.io/github/issues/francescobiagini/image-vertical-slider)
+![License](https://img.shields.io/github/license/HanamiSoftware/Image-Vertical-Slider)
+![GitHub stars](https://img.shields.io/github/stars/HanamiSoftware/Image-Vertical-Slider?style=social)
+![GitHub forks](https://img.shields.io/github/forks/HanamiSoftware/Image-Vertical-Slider?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/HanamiSoftware/Image-Vertical-Slider)
+![Issues](https://img.shields.io/github/issues/HanamiSoftware/Image-Vertical-Slider)
 
 A lightweight, dependency-free image comparison slider built using CSS `mask-image` and minimal JavaScript.
 
