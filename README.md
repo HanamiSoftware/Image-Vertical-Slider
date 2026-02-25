@@ -22,8 +22,6 @@
 
 ## Installation
 
- Option 1 — Copy Files
-
 Copy:
 
 - `image-compare.css`
