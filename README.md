@@ -37,22 +37,22 @@ Option 2 — Direct Include
 ```html
 <link rel="stylesheet" href="image-compare.css">
 <script src="image-compare.js" defer></script>
+```
 
 Basic Usage
-
-
+```html
 <div class="image-compare" style="--position:50%">
   <img src="day.jpg" alt="Day version">
   <img src="night.jpg" alt="Night version">
 </div>
-
+```
 That's all.
 
 ## Customization
 
 You can override these CSS variables:
 
-
+```html
 .image-compare {
   --position: 50%;
   --divider-width: 2px;
@@ -60,27 +60,27 @@ You can override these CSS variables:
   --handle-size: 32px;
   --handle-bg: rgba(255,255,255,0.9);
 }
-
+```
 Example Theme
 
-
+```html
 .image-compare.dark {
   --divider-color: #00ffcc;
   --handle-bg: #00ffcc;
 }
-
+```
 How It Works
 
 The second image is masked using a dynamic gradient:
 
-
+```html
 mask-image: linear-gradient(
   to right,
   black 0%,
   black var(--position),
   transparent var(--position)
 );
-
+```
 JavaScript updates the --position variable during pointer interaction.
 
 This avoids resizing elements and prevents layout reflow.
