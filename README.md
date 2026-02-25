@@ -144,7 +144,7 @@ Watch dial lume comparison
 UI redesign showcase
 
 ## Project Structure
-
+```
 Root
 │
 ├── src/
@@ -161,7 +161,7 @@ Root
 ├── README.md
 ├── LICENSE.txt
 └── CONTRIBUTING.md
-
+```
 Pull requests are welcome.
 
 Please:
