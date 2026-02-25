@@ -5,7 +5,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/HanamiSoftware/Image-Vertical-Slider?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/HanamiSoftware/Image-Vertical-Slider)
 ![Issues](https://img.shields.io/github/issues/HanamiSoftware/Image-Vertical-Slider)
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://buymeacoffee.com/hanamisoftware)
 
 ## Features
 
