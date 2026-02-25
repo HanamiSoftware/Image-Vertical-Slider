@@ -5,6 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/HanamiSoftware/Image-Vertical-Slider?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/HanamiSoftware/Image-Vertical-Slider)
 ![Issues](https://img.shields.io/github/issues/HanamiSoftware/Image-Vertical-Slider)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://hanamisoftware.github.io/Image-Vertical-Slider/demo/index.html)
 
 ## Features
 
