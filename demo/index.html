@@ -1,15 +1,121 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hanami Image Compare</title>
+
     <script src="js/image-compare.js" defer></script>
     <link rel="stylesheet" href="css/image-compare.css" />
-    <title>Image Comparison Slider</title>
+
+    <style>
+        :root {
+            --bg: #0d1117;
+            --panel: #161b22;
+            --border: #30363d;
+            --text: #e6edf3;
+            --muted: #8b949e;
+            --accent: #3fb950;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .wrapper {
+            max-width: 960px;
+            margin: 4rem auto;
+            padding: 0 1.5rem;
+        }
+
+        header {
+            margin-bottom: 2.5rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.9rem;
+            font-weight: 600;
+        }
+
+        p.subtitle {
+            margin-top: 0.5rem;
+            color: var(--muted);
+        }
+
+        .demo-panel {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
+        .meta span {
+            color: var(--accent);
+        }
+
+        .image-compare {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        footer {
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+
+        code {
+            background: #0b0f14;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+            font-size: 0.8rem;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="image-compare" style="--position:50%">
-  <img src="img/day_web.png" alt="Day version">
-  <img src="img/night_web.png" alt="Night version">
-</div>
+    <div class="wrapper">
+
+        <header>
+            <h1>Image Compare Slider</h1>
+            <p class="subtitle">
+                Lightweight, dependency-free before/after comparison component.
+            </p>
+        </header>
+
+        <div class="demo-panel">
+
+            <div class="meta">
+                Default position: <code>--position:50%</code> · Zero dependencies · MIT License
+            </div>
+
+            <div class="image-compare" style="--position:50%">
+                <img src="img/day_web.png" alt="Day version">
+                <img src="img/night_web.png" alt="Night version">
+            </div>
+
+        </div>
+
+        <footer>
+            Built for developers who prefer clarity over magic.
+        </footer>
+
+    </div>
 </body>
 </html>
