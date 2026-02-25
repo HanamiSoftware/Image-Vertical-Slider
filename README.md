@@ -15,7 +15,6 @@
 - CSS-first customization via custom properties
 - No layout reflow during drag
 - Progressive enhancement
-- Works with GitHub Pages
 - Fully responsive
 
 
@@ -32,8 +31,6 @@ Copy:
 
 into your project.
 
-Option 2 — Direct Include
-
 ```html
 <link rel="stylesheet" href="image-compare.css">
 <script src="image-compare.js" defer></script>
@@ -41,7 +38,7 @@ Option 2 — Direct Include
 
 Basic Usage
 ```html
-<div class="image-compare" style="--position:50%">
+<div class="image-compare">
   <img src="day.jpg" alt="Day version">
   <img src="night.jpg" alt="Night version">
 </div>
