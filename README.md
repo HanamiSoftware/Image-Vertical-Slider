@@ -18,11 +18,6 @@
 - Works with GitHub Pages
 - Fully responsive
 
----
-
-## Demo
-
-Enable GitHub Pages and add a `/demo/index.html` example.
 
 ---
 
