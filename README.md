@@ -32,7 +32,7 @@ Copy:
 
 into your project.
 
-## Option 2 — Direct Include
+Option 2 — Direct Include
 
 ```html
 <link rel="stylesheet" href="image-compare.css">
@@ -69,7 +69,7 @@ Example Theme
   --handle-bg: #00ffcc;
 }
 
-## How It Works
+How It Works
 
 The second image is masked using a dynamic gradient:
 
