@@ -39,7 +39,8 @@ into your project.
 <script src="image-compare.js" defer></script>
 
 Basic Usage
-```html
+
+
 <div class="image-compare" style="--position:50%">
   <img src="day.jpg" alt="Day version">
   <img src="night.jpg" alt="Night version">
@@ -51,7 +52,7 @@ That's all.
 
 You can override these CSS variables:
 
-```html
+
 .image-compare {
   --position: 50%;
   --divider-width: 2px;
@@ -62,7 +63,7 @@ You can override these CSS variables:
 
 Example Theme
 
-```html
+
 .image-compare.dark {
   --divider-color: #00ffcc;
   --handle-bg: #00ffcc;
@@ -72,7 +73,7 @@ Example Theme
 
 The second image is masked using a dynamic gradient:
 
-```html
+
 mask-image: linear-gradient(
   to right,
   black 0%,
