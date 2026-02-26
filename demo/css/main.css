@@ -55,20 +55,26 @@ p.subtitle {
     margin-bottom: 1rem;
 }
 
-.meta span {
+    .meta span {
         color: var(--accent);
-}
+    }
 
 .image-compare {
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
 }
 
 footer {
-    text-align: "center";
     margin-top: 3rem;
     font-size: 0.8rem;
     color: var(--muted);
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 code {
