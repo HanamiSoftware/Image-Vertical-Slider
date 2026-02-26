@@ -2,7 +2,7 @@
 layout: default
 title: Contributing
 ---
- # Contributing
+ ### Contributing
 
 Thank you for considering contributing to Image Compare Slider.
 
