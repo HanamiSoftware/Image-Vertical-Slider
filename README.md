@@ -167,7 +167,7 @@ Avoid unnecessary abstraction
 
 Preserve performance and accessibility
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+See <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details.
 
 ## Code of Conduct
 
@@ -207,7 +207,7 @@ Project maintainers may remove or edit comments, commits, code, issues, and othe
 
 MIT License
 
-See LICENSE file for full text.
+See <a href="LICENSE.txt">LICENSE</a> file for full text.
 
 ## Philosophy
 
