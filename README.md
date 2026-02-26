@@ -207,7 +207,7 @@ Project maintainers may remove or edit comments, commits, code, issues, and othe
 
 MIT License
 
-See [LICENSE](LICENSE.txt) for full text.
+See LICENSE for full text.
 
 ## Philosophy
 
