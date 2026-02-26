@@ -1,12 +1,12 @@
-﻿### Image Compare Slider
+﻿### Ninja Image Compare Slider
 
-![License](https://img.shields.io/github/license/HanamiSoftware/Image-Compare-Slider)
-![GitHub stars](https://img.shields.io/github/stars/HanamiSoftware/Image-Compare-Slider?style=social)
-![GitHub forks](https://img.shields.io/github/forks/HanamiSoftware/Image-Compare-Slider?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/HanamiSoftware/Image-Compare-Slider)
-![Issues](https://img.shields.io/github/issues/HanamiSoftware/Image-Compare-Slider)
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://hanamisoftware.github.io/Image-Compare-Slider/demo/index.html)
-
+![License](https://img.shields.io/github/license/HanamiSoftware/Ninja-Image-Compare-Slider)
+![GitHub stars](https://img.shields.io/github/stars/HanamiSoftware/Ninja-Image-Compare-Slider?style=social)
+![GitHub forks](https://img.shields.io/github/forks/HanamiSoftware/Ninja-Image-Compare-Slider?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/HanamiSoftware/Ninja-Image-Compare-Slider)
+![Issues](https://img.shields.io/github/issues/HanamiSoftware/Ninja-Image-Compare-Slider)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://hanamisoftware.github.io/Ninja-Image-Compare-Slider/demo/index.html)
+<img src="src/img/combo.png" style="width:1024px"/>
 ## Features
 
 - Zero dependencies
