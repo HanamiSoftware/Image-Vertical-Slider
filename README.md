@@ -175,8 +175,6 @@ This project follows a simple principle:
 
 Be respectful. Be constructive. Assume good intent.
 
-Full version:
-
 ## Our Pledge
 
 We pledge to make participation in this project a harassment-free experience for everyone.
