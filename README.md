@@ -167,7 +167,7 @@ Avoid unnecessary abstraction
 
 Preserve performance and accessibility
 
-See CONTRIBUTING.md for details.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## Code of Conduct
 
